@@ -101,7 +101,7 @@ public class HighscorePanel : Panel
 	 */
 	private HighscorePanelRow AddHighscorePanelRow()
 	{
-		var row					= this.Instantiate(this.rowBlueprint) as GameObject;
+		var row					= Instantiate(rowBlueprint) as GameObject;
 		var highscorePanelRow	= row.GetComponent<HighscorePanelRow>();
 		
 		row.SetActive(true);

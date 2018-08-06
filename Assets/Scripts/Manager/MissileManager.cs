@@ -30,7 +30,7 @@ public class MissileManager : Singleton<MissileManager>
 	private Missile AddMissileToObjectPool(Enum.FlyingObject flyingObject)
 	{
 		var flyingObjectIndex				= (int) flyingObject;
-		var missileGameObject				= this.Instantiate(this.missilePrefabs[flyingObjectIndex]) as GameObject;
+		var missileGameObject				= Instantiate(missilePrefabs[flyingObjectIndex]) as GameObject;
 		missileGameObject.name				= this.missilePrefabs[flyingObjectIndex].name;
 		missileGameObject.transform.SetParent(this.missileContainer, false);
 		var missile							= missileGameObject.GetComponent<Missile>();

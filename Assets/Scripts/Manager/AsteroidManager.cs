@@ -30,7 +30,7 @@ public class AsteroidManager : Singleton<AsteroidManager>
 	private Asteroid AddAsteroidToObjectPool(Enum.AsteroidSize size)
 	{
 		var asteroidSizeIndex				= (int) size;
-		var asteroidGameObject				= this.Instantiate(this.asteroidPrefabs[asteroidSizeIndex]) as GameObject;
+		var asteroidGameObject				= Instantiate(asteroidPrefabs[asteroidSizeIndex]) as GameObject;
 		asteroidGameObject.name				= this.asteroidPrefabs[asteroidSizeIndex].name;
 		asteroidGameObject.transform.SetParent(this.asteroidContainer, false);
 		var asteroid						= asteroidGameObject.GetComponent<Asteroid>();
