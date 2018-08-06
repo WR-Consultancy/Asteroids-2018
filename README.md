@@ -18,7 +18,7 @@ It's a small mobile test project made for android smartphones, it will run on ta
 7. Click **Switch Platform**
 8. Click **Player Settings...**
 9. Close the Build Settings window
-10. In the **PlayerSetting>Other Settings>Minimum API Level** - set as **Android 4.4**
+10. In the ***PlayerSetting>Other Settings>Minimum API Level*** - set as **Android 4.4**
 11. Connect your Android device by USB
 12. Select ***File>Build & Run***
 
