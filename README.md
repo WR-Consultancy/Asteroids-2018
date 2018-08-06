@@ -9,9 +9,9 @@ It's a small mobile test project made for android smartphones, it will run on ta
 * **HTC One M8**
 
 ## Asset sources and license
-* **Assets/Scripts/Manager/AsteroidManager.cs** Updated by [White Rabbit Consultancy @ consultantsussex.com](https://consultantsussex.com) - License: The MIT License (MIT)
-* **Assets/Scripts/Manager/MissileManager.cs** Updated by [White Rabbit Consultancy @ consultantsussex.com](https://consultantsussex.com) - License: The MIT License (MIT)
-* **Assets/Scripts/UI/Panel/HighscorePanel.cs** Updated by [White Rabbit Consultancy @ consultantsussex.com](https://consultantsussex.com) - License: The MIT License (MIT)
+* **Assets/Scripts/Manager/AsteroidManager.cs** Updated by [White Rabbit @ consultantsussex.com](https://consultantsussex.com) - License: The MIT License (MIT)
+* **Assets/Scripts/Manager/MissileManager.cs** Updated by [White Rabbit @ consultantsussex.com](https://consultantsussex.com) - License: The MIT License (MIT)
+* **Assets/Scripts/UI/Panel/HighscorePanel.cs** Updated by [White Rabbit @ consultantsussex.com](https://consultantsussex.com) - License: The MIT License (MIT)
 * **Assets/Textures/Background.png** [hubblesite.org](http://hubblesite.org/newscenter/archive/releases/2008/28/image/a/) - License: Public Domain
 * **Assets/Fonts/Neuropol.ttf** [Typodermic Fonts @ 1001freefonts.com](http://www.1001freefonts.com/neuropol.font) - License: Free
 * **Assets/Audio/Music.wav** [ERH @ freesound.org](https://www.freesound.org/people/ERH/sounds/62068/) - License: CC BY-NC 3.0
