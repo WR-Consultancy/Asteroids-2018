@@ -8,6 +8,20 @@ It's a small mobile test project made for android smartphones, it will run on ta
 * **Sony Xperia Z Tablet**
 * **HTC One M8**
 
+## Instructions ##
+1. Install Unity from here [unity3d.com](https://unity3d.com/) - Make sure that the **Android Build Support** component is selected during installation.
+2. Set up your environment according to **[this guide](https://docs.unity3d.com/Manual/android-sdksetup.html)**.
+3. Download and unzip **[this GitHub project](https://github.com/WR-Consultancy/Asteroids-2018)**.
+4. Run Unity and open an existing project from the unzip location.
+5. Select ***File>Build Settings...***
+6. In the **Platform** selector choose **Android**
+7. Click **Switch Platform**
+8. Click **Player Settings...**
+9. Close the Build Settings window
+10. In the **PlayerSetting>Other Settings>Minimum API Level** - set as **Android 4.4**
+11. Connect your Android device by USB
+12. Select ***File>Build & Run***
+
 ## Asset sources and license
 * **Assets/Scripts/Manager/AsteroidManager.cs** Updated by [White Rabbit @ consultantsussex.com](https://consultantsussex.com) - License: The MIT License (MIT)
 * **Assets/Scripts/Manager/MissileManager.cs** Updated by [White Rabbit @ consultantsussex.com](https://consultantsussex.com) - License: The MIT License (MIT)
